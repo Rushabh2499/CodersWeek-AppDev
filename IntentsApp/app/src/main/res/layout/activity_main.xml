@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/increment_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnInc"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/increment_textview"
+        android:text="Increment"
+        android:background="@color/white"
+        />
+    <Button
+        android:id="@+id/btnNxt"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/btnInc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Next App->"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        />
+
+</RelativeLayout>
