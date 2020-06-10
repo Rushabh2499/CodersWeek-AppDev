@@ -29,12 +29,11 @@ class MainActivity : AppCompatActivity() {
             btn21.isEnabled=false
             btn22.isEnabled=false
 
-            /*Timer1().schedule(3000){
-                TODO("nothing")
-            }*/
             turns=num
             startActivity(Intent(this,RetryActivity::class.java))
             finish()
+
+
         }
 
         fun gamer(x:Int,y:Int){
